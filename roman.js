@@ -1,9 +1,9 @@
 function convert(x){
 
-	var unitario = ['0','I','II','III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'];
-	var decimail = ['0','X', 'XX', 'XXX', 'XL', 'L', 'LX','LXX', 'LXXX','XC'];
-	var centena  = ['0','C','CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'];
-	var milhar   = ['0','M', 'MM', 'MMM'];
+	var unitario = ['','I','II','III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'];
+	var decimail = ['','X', 'XX', 'XXX', 'XL', 'L', 'LX','LXX', 'LXXX','XC'];
+	var centena  = ['','C','CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'];
+	var milhar   = ['','M', 'MM', 'MMM'];
 
 	x = parseInt(x).toString();
 	if(parseInt(x)==0){
